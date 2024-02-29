@@ -10,7 +10,7 @@ const app = express();
 const pgp = pgPromise({});
 
 const connectionString = process.env.DATABASE_URL;
-const db = pgp(postgrs://srpmujnm:LOaPbsLc1_OPPB_B21)
+const db = pgp('postgrs://srpmujnm:LOaPbsLc1_OPPB_B2'1)
 
 const PORT = process.env.PORT || 3000;
 
